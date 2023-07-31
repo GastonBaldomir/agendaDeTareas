@@ -10,28 +10,36 @@
     
 </head>
 <body>
-
-    <main class="d-flex justify-content-center ">
-    <div class=" text-center contenedor">
-        <h1 class="text-secondary">Agenda de Recordatorios</h1>
+    <header class="container-fluid head d-flex justify-content-center ">
+        <p class="fs-6 text-dark m-1 p-0">Lunes 25 de Abril de 2023.</p>
+    </header>
+    <main class="d-flex justify-content-center">       
+            <div class=" text-center contenedor">
+                <h1 class="text-secondary">Agenda de Recordatorios</h1>
+                    <div class="">
+                        <div class="input-group mb-3">
+                            <input type="text"  class="input form-control" placeholder="Ingrese su tarea pendiente..." aria-label="Recipient's username" aria-describedby="btn">
+                            <button class="btn btn-secondary" type="button" id="btn">+</button>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <ul class="list-group d-flex">
         
-            <div class="">
-                <div class="input-group mb-3">
-                    <input type="text"  class="input form-control" placeholder="Ingrese su tarea pendiente..." aria-label="Recipient's username" aria-describedby="btn">
-                    <button class="btn btn-secondary" type="button" id="btn">+</button>
-                </div>
-            </div>
-        
-        <div>
-            <ul class="list-group d-flex">
-
-            </ul>
-        </div>
-        <div id="noTareas">
-            <p class="text-secondary">No tienes tareas por realizar.</p>
-        </div>
-    </div>
+                        </ul>
+                    </div>
+                    <div id="noTareas" class="text-center">
+                        <p class="text-secondary">No tienes tareas por realizar.</p>
+                    </div>
+            </div>                   
     </main>
+    <footer class=" d-flex align-items-center">
+        <div>
+            <a target="_blank" href="https://www.instagram.com/gastonbaldomir/"><img src="imagenes/instagram.png" alt=""></a></li>
+            <a target="_blank" href="https://www.linkedin.com/in/gast%C3%B3n-nahuel-baldomir-98a5a9217/"><img src="imagenes/linkedin.png" alt=""></a></li>
+            <a target="_blank" href="https://github.com/GastonBaldomir"><img src="imagenes/github.png" alt=""></a></li>
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=5492477363863"><img src="imagenes/whatsapp.png" alt=""></a></li>
+        </div>
+    </footer>
     <script src="js/index.js"></script>
 </body>
 </html>

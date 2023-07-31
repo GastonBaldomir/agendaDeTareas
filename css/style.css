@@ -1,20 +1,47 @@
-main{
-    /* background: linear-gradient(to bottom, rgb(198, 143, 250) , rgb(21, 253, 21)); */
-     height: 100vh;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+html{
     background-color: rgb(252, 214, 214);
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 90%;
+    background-color: rgb(252, 214, 214);
+    
+}
+footer{
+    margin-top: auto;
+}
+main{  
+    background-color: rgb(252, 214, 214);
+    min-height: 85vh;
 
 }
 #noTareas{
-    margin: 30px;
+    margin: 20px;
+}
+.head{
+    background-color:  rgb(252, 214, 214);
+    height: auto;
 }
 .contenedor{
     margin-top: 35px;
     margin-bottom: 30px;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: white;
     border: solid gray 1px;
     border-radius: 2%;
-    height: max-content;
+    height:fit-content;
 }
 body div h1{
     font-size: 25px;
@@ -30,4 +57,37 @@ body div h1{
 }
 body div div ul li p{
     width: 100%;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(252, 214, 214);
+    align-content: center;
+    height: 5vh;
+}
+
+
+footer a img{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+@media(max-width: 550px){
+    
+    body div h1{
+        font-size: 20px;
+    }
+    .contenedor{
+        width: 75%;
+    }
+    footer a img{
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: 10px;
+    margin-right: 10px;
+    }
 }
